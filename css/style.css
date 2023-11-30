@@ -1,0 +1,191 @@
+:root{
+    --main-color:#0078ff;
+}
+
+#header.header-scroll {
+    background: rgba(0, 0, 0, 0.9);
+    }
+
+    .nav-underline .active{
+        transition: all 0.3s ease-in-out 0s;
+        width: 60%;
+    }
+      
+section .bg-image{
+    background-image: url(../images/hero-bg.jpg) ;
+    background-size: cover;
+    position: relative;
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+
+
+.overlay{
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.overlay p::after{
+    animation-name: typing ;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    content: "";
+}
+
+.text p::after{
+    animation-name: numbers ;
+    animation-duration: 1s;
+    animation-iteration-count:1;
+    content: "450";
+}
+.text1 p::after{
+    animation-name: numbers ;
+    animation-duration: 1s;
+    animation-iteration-count:1;
+    content: "25";
+}
+.text2 p::after{
+    animation-name: numbers ;
+    animation-duration: 1s;
+    animation-iteration-count:1;
+    content: "550";
+}
+.text3 p::after{
+    animation-name: numbers ;
+    animation-duration: 1s;
+    animation-iteration-count:1;
+    content: "48";
+}
+
+
+body{
+    font-family: system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans","Liberation Sans",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";;
+}
+ .title2 h5::before{
+    content: "";
+    position: absolute;
+    height: 3px;
+    background-color: #0078ff;
+    width: 100px;
+    bottom: -12px;
+
+}
+
+
+.ico-circle{        
+    height: 100px;
+    width: 100px;
+    font-size: 2rem;
+    border-radius: 50%;
+    line-height: 1.55;
+    margin: 0 auto;
+    text-align: center;
+    box-shadow: 0 0 0 10px #0078ff;
+}
+section .sec3 .bg{
+    background-image: url("../images/post-3.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+    padding: 8rem 0;
+}
+
+
+   .line{
+    width: 40px;
+    height: 5px;
+
+}
+
+
+#portfolio .card:hover img{
+transform: scale(1.3);
+}
+
+
+#portfolio .card img {
+    transition: all 1s;
+}
+
+.sec6 .bg{
+    background-image: url(../images/overlay-bg.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 80vh;
+    background-attachment: fixed;
+    padding: 8rem 0;
+}
+
+.card .card-footer img{
+    width: 2rem;
+}
+
+
+ .contact{
+    background-image: url(../images/overlay-bg.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* height: 100vh; */
+    background-attachment: fixed;
+}
+
+
+    ul li{
+        list-style-type: none;
+    }
+
+    .social .ico-circle{
+        height: 40px;
+        width: 40px;
+        font-size: 1.2rem;
+        border-radius: 50%;
+        line-height: 1.6;
+        margin: 0 15px 0 0;
+        box-shadow: 0 0 0 3px #0078ff;
+        transition: all 500ms ease;
+    }
+    footer{
+        background-color: #0062d3;
+    }
+
+    .social .ico-circle:hover {
+        background-color:#0078ff ;
+color: white;
+box-shadow: 0 0 0 10px #cde1f8;
+transition: all 500ms ease;
+    }
+
+    .sec3 .ico-circle{
+        height: 60px;
+        width: 65px;
+        font-size: 2rem;
+        border-radius: 50%;
+        line-height: 1.55;
+        margin: 0 auto;
+        text-align: center;
+        box-shadow: 0 0 0 10px white;
+    }
+
+    #service .card:hover .ico-circle{
+background-color:#0078ff ;
+color: white;
+box-shadow: 0 0 0 10px #cde1f8;
+transition: all 500ms ease;
+
+ }
+
+
+.back-to-top {
+    position: fixed;
+    right: 15px;
+    bottom: 15px;
+    z-index: 996;
+    background: #0078ff;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+}

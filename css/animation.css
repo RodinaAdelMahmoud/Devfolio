@@ -1,0 +1,165 @@
+@keyframes typing {
+    0%{
+        content: "D|"
+    }
+
+    2%{
+        content: "De|";
+    }
+    4%{
+        content: "Des|";
+    }
+    6%{
+        content: "Desi|";
+    }
+    8%{
+        content: "Desig|";
+    }
+    10%{
+        content: "Design|";
+    }
+    12%{
+        content: "Designe|";
+    }
+    14%{
+        content: "Designer|";
+    }
+
+
+    16%{
+        content: "Designe|";
+    }
+    18%{
+        content: "Design|";
+    }
+    20%{
+        content: "Desig|";
+    }
+    22%{
+        content: "Desi|";
+    }
+
+    24%{
+        content: "Des|";
+    }        
+    26%{
+        content: "De|";
+    }    
+
+
+    28%{
+        content: "Dev|"
+    }        
+    30%{
+        content: "Deve|"
+    }        
+    32%{
+        content: "Devel|"
+    }        
+    34%{
+        content: "Develo|"
+    }        
+    36%{
+        content: "Develop|"
+    }        
+    38%{
+        content: "Develope|"
+    }        
+    40%{
+        content: "Developer|"
+    }        
+
+42%{
+    content: "Develope|"
+}
+44%{
+    content: "Develop|"
+}
+48%{
+    content: "Develo|"
+}
+50%{
+    content: "Devel|"
+}
+52%{
+    content: "Deve|"
+}
+54%{
+    content: "Dev|"
+}
+56%{
+    content: "De|"
+}
+58%{
+    content: "D|"
+}
+
+60%{
+    content: "|"
+}
+
+
+
+
+60%{
+    content: "F|"
+}
+62%{
+    content: "Fr|"
+}
+64%{
+    content: "Fre|"
+}
+68%{
+    content: "Free|"
+}
+70%{
+    content: "Freel|"
+}
+72%{
+    content: "Freela|"
+}
+74%{
+    content: "Freelan|"
+}
+76%{
+    content: "Freelanc|"
+}
+78%{
+    content: "Freelance|"
+}
+80%{
+    content: "Freelancer|"
+}
+
+
+}
+
+@keyframes numbers {
+    0%{
+        content:"50"
+    }
+    2%{
+        content:"100"
+    }
+    4%{
+        content:"150"
+    }
+    6%{
+        content:"200"
+    }
+    8%{
+        content:"250"
+    }
+    10%{
+        content:"300"
+    }
+    12%{
+        content:"350"
+    }
+    14%{
+        content:"400"
+    }
+  
+
+}

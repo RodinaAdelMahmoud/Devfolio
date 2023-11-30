@@ -1,0 +1,11 @@
+@media (min-width: 768px){
+.overlay h1 {
+    font-size: 4.5rem;
+}}
+
+
+@media (max-width: 1024px){
+.bg{
+    background-attachment: scroll;
+}}
+
